@@ -1,0 +1,30 @@
+.done {
+    position: fixed;
+    margin: 0 auto;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #6d6d6d;
+    background-color: white;
+}
+
+.done__message {
+    font-size: 21px;
+    text-align: center;
+    margin: 50px 0 40px;
+}
+
+.done__back {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #344fff;
+    border-radius: 5px;
+}

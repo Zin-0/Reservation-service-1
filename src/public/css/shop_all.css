@@ -1,0 +1,92 @@
+.shop-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.shop__card {
+    width: 24%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #6d6d6d;
+    background-color: white;
+    margin-right: 1%;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.shop__card-content {
+    margin: 8% 5%;
+}
+
+.shop-name {
+    font-weight: bold;
+}
+
+.shop-category {
+    font-size: 10px;
+}
+
+.shop-area {
+    display: inline-block;
+}
+
+.shop-genre {
+    display: inline-block;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.card-message {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.card-message a {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    background-color: #344fff;
+}
+
+.card-mark {
+    display: inline-block;
+}
+
+.heart-on {
+    font-size: 0;
+    border: none;
+    width: 25px;
+    height: 25px;
+    background: url(../img/heart-on.svg) left top no-repeat;
+}
+
+.heart-on:hover {
+    cursor: pointer;
+}
+
+.heart-off {
+    font-size: 0;
+    border: none;
+    width: 25px;
+    height: 25px;
+    background: url(../img/heart-off.svg) left top no-repeat;
+}
+
+.heart-off:hover {
+    cursor: pointer;
+}

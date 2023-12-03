@@ -1,0 +1,76 @@
+.login__content {
+    margin: 100px 0;
+}
+
+.login-form {
+    margin: auto;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #6d6d6d;
+}
+
+.login-form__header {
+    padding: 20px;
+    color: white;
+    background-color: #344fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.login-form__content {
+    padding: 10px 20px;
+}
+
+.form__group {
+    margin: 10px 0;
+}
+
+.form__group-input input {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #5e5e5e;
+    font-size: 16px;
+    &::before {
+        content: "";
+        vertical-align: middle;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+.form__group-input {
+    &::before {
+        content: "";
+        margin-right: 5px;
+        vertical-align: middle;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    &.email::before {
+        background-image: url(../img/mail2.svg);
+    }
+    &.password::before {
+        background-image: url(../img/key.svg);
+    }
+}
+
+.form__button {
+    margin: 10px 0;
+}
+
+.form__button button {
+    margin-left: 255px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #344fff;
+    color: white;
+}
